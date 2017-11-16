@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>Crystal Collector Game</title>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<h1>Crystals Collector!</h1>
+		<div class="row">
+			<div class="col">
+			<p>You will be given a random number at the start of the game.</p>
+			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+			<p>You win the game by matching your total score to random number, you lose the game if yourr total score goes above the random number.</p>
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+			<p>Each time when the game starts, the game will change te values of each crystal.</p>
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col">
+				<p id="random-number"></p>
+				</div>
+			<div class="col" id="wins-losses-box">
+				<p id="wins"></p>
+				<p id="losses"></p>
+				</div>
+		</div>	
+		<div class="row">
+			<div class="col">
+				<button class="btn btn-default" id="ruby-button">
+					<img src="./assets/images/ruby.png" alt="ruby image">
+				</button></div>
+			<div class="col">
+				<button class="btn btn-default" id="emerald-button">
+				<img src="./assets/images/emerald.png" alt="emerald image">
+				</button></div>
+			<div class="col">
+				<button class="btn btn-default" id="sapphire-button">
+				<img src="./assets/images/saphire.png" alt="saphire image" >
+				</button></div>
+			<div class="col">
+				<button class="btn btn-default" id="diamond-button">
+				<img src="./assets/images/diamond.png" alt="diamond image">
+				</button></div>
+		</div>		
+		<div class="row">
+			<div class="col">
+				<p>Your total score is</p>
+				<p id="total-score"></p>
+			</div>	
+		</div>
+	</div>
+
+
+
+<!-- Javascript Link -->
+	<script src="./assets/javascript/game.js"></script>
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
