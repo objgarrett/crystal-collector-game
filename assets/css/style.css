@@ -1,4 +1,22 @@
+body {
+	background-color: #fdf7c4;
+}
 img {
 	height:200px;
 	width:200px;
 }
+
+h1, h2 {
+	font-family: 'Bubblegum Sans', cursive;
+	color: #6eb0e1;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: #6eb0e1;
+}
+
+.jumbotron, .btn {
+	background-color: #fdf7c4 !important;
+}
+
